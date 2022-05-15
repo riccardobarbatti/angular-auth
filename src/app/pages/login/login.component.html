@@ -1,0 +1,32 @@
+<form class="form-signin" [formGroup]="form" (submit)="submit()">
+  <div class="text-center mb-4">
+    <img
+      width="70"
+      alt="Angular Logo"
+      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
+    />
+    <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+
+  </div>
+
+  <div class="form-label-group">
+    <input formControlName="email" type="email" id="email" class="form-control" placeholder="Email address" required autofocus>
+    <label for="email">Email address</label>
+  </div>
+
+  <div class="form-label-group">
+    <input formControlName="password" type="password" id="password" class="form-control" placeholder="Password" required>
+    <label for="password">Password</label>
+  </div>
+
+  <div class="mb-3">
+    <a routerLink="/forgot">Forgot Password?</a>
+  </div>
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+  <button class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
+  <p class="mt-5 mb-3 text-muted text-center">&copy; 2022</p>
+</form>
