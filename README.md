@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 <p align="center">
-  <img src="assets/sample.jpg" width="960" alt="Main App" />
+  <img src="sample.jpg" width="960" alt="Main App" />
 </p>
 
 ## Development server
